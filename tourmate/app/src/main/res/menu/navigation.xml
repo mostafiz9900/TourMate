@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_trips"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="@string/title_trips" />
+
+    <item
+        android:id="@+id/navigation_memorirics"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="@string/title_memories" />
+
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="@string/title_wallet" />
+
+</menu>
