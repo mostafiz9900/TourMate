@@ -28,7 +28,7 @@ public class TripsActivity extends AppCompatActivity {
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-replecFragemt(new TripsFragment());
+        replecFragemt(new TripsFragment());
 
     }
 
@@ -36,7 +36,7 @@ replecFragemt(new TripsFragment());
         //FragmentManager fm= getSupportFragmentManager();
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.tripsFrameLayout, fragment);
-
+        ft.commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener

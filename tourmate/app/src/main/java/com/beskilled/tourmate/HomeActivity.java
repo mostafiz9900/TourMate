@@ -21,7 +21,7 @@ private ActivityHomeBinding binding;
            @Override
            public void onClick(View view) {
                onBackPressed();
-			  
+
            }
        });
 
