@@ -15,11 +15,11 @@
             android:background="@color/colorPrimary">
             <TextView
                     android:layout_width="match_parent"
-
                     android:layout_height="wrap_content"
                     android:text="Dashboard"
                     android:textColor="@color/white"
                     android:textSize="16dp"
+                android:paddingLeft="60dp"
                     android:gravity="center"/>
 
         </androidx.appcompat.widget.Toolbar>
