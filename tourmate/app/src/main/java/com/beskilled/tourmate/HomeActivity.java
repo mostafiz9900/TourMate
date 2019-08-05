@@ -21,7 +21,7 @@ private ActivityHomeBinding binding;
            @Override
            public void onClick(View view) {
                onBackPressed();
-			   Toast.makeText(getApplicationContext(), "text code", Toast.LENGTH_SHORT).show();
+			  
            }
        });
 

@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ndjhactivity"></activity>
+        <activity android:name=".MemoriesActivity"></activity>
         <activity
             android:name=".TripsActivity"
             android:label="@string/title_activity_trips" />

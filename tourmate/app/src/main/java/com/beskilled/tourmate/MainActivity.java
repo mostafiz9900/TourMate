@@ -45,5 +45,6 @@ private ActivityMainBinding mainBinding;
                 startActivity(intent);
             }
         });
+
     }
 }
