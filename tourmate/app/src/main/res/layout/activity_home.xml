@@ -27,18 +27,19 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="0dp"
                     android:src="@drawable/ic_keyboard_backspace_white_24dp" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Home"
+                    android:text="@string/home"
                     android:textSize="16dp"
                     android:paddingRight="60dp"
                     android:paddingLeft="0dp"
                     android:textAlignment="center"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"/>
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
 
