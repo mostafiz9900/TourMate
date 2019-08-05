@@ -26,6 +26,7 @@ public class TripsActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_memorirics:
                     mTextMessage.setText(R.string.title_memories);
+		    onBackPressed();
                     return true;
                 case R.id.navigation_wallet:
                     mTextMessage.setText(R.string.title_wallet);
