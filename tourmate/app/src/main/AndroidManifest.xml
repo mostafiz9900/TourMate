@@ -12,9 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".expense"></activity>
         <activity
             android:name=".TripsActivity"
-            android:label="@string/title_activity_trips"></activity>
+            android:label="@string/title_activity_trips" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
