@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/imagessignup"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        tools:context=".SignUpActivity">
+        <EditText
+            android:id="@+id/nameSignEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_design_edittext"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:hint="Enter Your Name"
+            android:padding="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <EditText
+            android:id="@+id/emailSignEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_design_edittext"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <EditText
+            android:id="@+id/passwordSignUpEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_design_edittext"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_design_btn"
+            android:layout_marginTop="20dp"
+            android:text="Sign Up"
+            android:textSize="15dp"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/signUpToLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_signup_design_btn"
+            android:layout_marginTop="20dp"
+            android:text="Log In"
+            android:textSize="15dp"
+            android:padding="15dp"
+            android:textColor="#20241C"
+            android:visibility="gone"/>
+    </LinearLayout>
+</layout>
