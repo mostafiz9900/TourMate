@@ -8,4 +8,6 @@
     <string name="title_memories">Memories</string>
     <string name="title_wallet">Wallet</string>
     <string name="home">Home</string>
+    <string name="signUp"><u>Sign Up</u></string>
+    <string name="sign_in"><u>Sign In</u></string>
 </resources>

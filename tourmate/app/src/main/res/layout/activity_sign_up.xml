@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <layout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -6,24 +7,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
         android:background="@drawable/imagessignup"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
         tools:context=".SignUpActivity">
         <EditText
-            android:id="@+id/nameSignEt"
+            android:id="@+id/nameSignUpEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/login_design_edittext"
             android:drawableLeft="@drawable/ic_account_circle_black_24dp"
             android:hint="Enter Your Name"
+            android:inputType="textCapWords"
             android:padding="15dp"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"/>
         <EditText
-            android:id="@+id/emailSignEt"
+            android:id="@+id/emailSignUpEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/login_design_edittext"
@@ -33,7 +34,9 @@
             android:padding="15dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"/>
         <EditText
             android:id="@+id/passwordSignUpEt"
             android:layout_width="match_parent"
@@ -45,7 +48,9 @@
             android:padding="15dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
         <Button
             android:id="@+id/signUpBtn"
             android:layout_width="match_parent"
@@ -67,5 +72,35 @@
             android:padding="15dp"
             android:textColor="#20241C"
             android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+                android:textSize="14dp"
+                android:text="Already have an account ?  "/>
+            <TextView
+                android:id="@+id/signUpToIn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="@string/sign_in"/>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/signupPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
     </LinearLayout>
 </layout>
